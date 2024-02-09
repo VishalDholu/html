@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 25px;
+        }
+        #child1{
+            width: 40%;
+            margin:40px;
+           
+        }
+        #child2{
+            width: 40%;
+            margin: 40px;
+            
+        }
+        .cl1{
+            font-size: 30px;
+            padding:15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Patient Details(Mandatory)</h1>
+    <form>
+        <div class="parent">
+            <div id="child1">
+                <div class="cl1">
+                    <label>Registration Date</label>
+                    <input type="text">
+                </div>
+                <div style="text-align: center;" class="cl1">
+                    <label>Follow up No</label>
+                </div>
+                <div class="cl1">
+                    <label>Patient No</label>
+                    <input type="text" >
+                </div>
+                <div class="cl1">
+                    <label>Name*</label>
+                    <select>
+                        <option>Mr.</option>
+                        <option>mrs.</option>
+                    </select>
+                    <input type="text" >
+                </div>
+                <div class="cl1">
+                    <label>Relation</label>
+                    <select>
+                        <option>S/O</option>
+                        <option>Father</option>
+                        <option>Mother</option>
+                        <option>Brother</option>
+                        <option>Sister</option>
+                        <option>Friend</option>
+                        <option>Other</option>
+                    </select>
+                    <input type="text" >
+                </div>
+                <div class="cl1">
+                    <label>Age/D.O.B</label>
+                    <select>
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                    </select>
+                    <input type="number">
+                    <input type="date">
+                </div>
+                <div class="cl1">
+                    <label>Gender*</label>
+                    <select>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+
+            </div>
+            <div id="child2">
+                <div class="cl1">
+                    Is Previous Date<input type="checkbox" name="date" values="true">
+                </div>
+                <div class="cl1">
+                    <label>Mode of Presentation</label>
+                    <select>
+                        <option>opd</option>
+                        <option>corona</option>
+                        <option>eids</option>
+                    </select>
+                </div>
+                <div class="cl1">
+                    <label>Patient Category*</label>
+                    <select>
+                        <option>private</option>
+                        <option>government</option>
+                    </select>
+                </div>
+                <div class="cl1">
+                    <label>Main Department*</label>
+                    <select>
+                        <option>opd</option>
+                        <option>colona</option>
+                        <option>eids</option>
+                    </select>
+                </div>
+                <div class="cl1">
+                    <label>Sub Department*</label>
+                    <select>
+                        <option>icu</option>
+                        <option>operation theater</option>
+                    </select>
+                </div>
+                <div class="cl1">
+                    <label>Docter Name</label>
+                    <select>
+                        <option>manoj shah</option>
+                        <option>sanjay shah</option>
+                        <option>deesh patel</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

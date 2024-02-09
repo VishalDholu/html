@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: sans-serif;
+            
+        }
+        #parent{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #child{
+            border:2px solid black;
+            padding: 15px;
+
+        }
+        
+        .subchild{
+            padding: 15px;
+            font-size: 25px;
+        }
+        .btn{
+            font-size: 30px;
+            padding: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="child">
+            <form>
+                <div class="subchild">
+                    <lable>Username:</lable>
+                    <input id="username" type="text"> 
+                </div>
+
+                <div class="subchild">
+                    <lable>Password:</lable>
+                    <input id="password" type="password"> 
+                </div>
+
+                <div class="subchild">
+                    <lable>City Of Employment:</lable>
+                    <input id="city" type="text"> 
+                </div>
+
+                <div class="subchild">
+                    <lable>Web Server:</lable>
+                    <select id="dd">
+                        <option>--Choose a server--</option>
+                        <option value="xampp">xampp</option>
+                        <option value="wampp">wampp</option>
+                        <option vlaue="lampp">lampp</option>
+                    </select>
+                </div>
+
+                <div class="subchild" >
+                    <lable>Please Specify Your Role:</lable>
+                    <div>
+                        <input type="radio" name="role" value="Admin">Admin
+                        <input type="radio" name="role" value="Enginneer">Enginneer
+                        <input type="radio" name="role" value="Manager">Manager
+                        <input type="radio" name="role" value="Guest">Guest
+                    </div>
+                </div>
+
+                <div class="subchild">
+                    <label> Sign-on to the following:</label>
+                    <div>
+                        <input type="checkbox" value="med" >Med
+                        <input type="checkbox" value="payroll">Payroll 
+                        <input type="checkbox" value="Self-Service">Self-Service
+                    </div>
+                </div>
+                
+                <div class="subchild">
+                    <input type="submit" name="submit" value="Login" class="btn">
+                    <input type="reset" value="reset" class="btn"> 
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
