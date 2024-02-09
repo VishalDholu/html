@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table1</title>
+    <style>
+        *{
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+        table,th,td{
+            border:2px solid black;
+        }
+        th,td{
+            padding: 15px;
+            font-size: 30px;
+        }
+        #name{
+            padding:10px;
+            font-size: 25px;
+        }
+        .radio{
+            width: 20px;
+            height: 20px;
+        }
+        #select{
+            font-size: 30px;
+        }
+        .check{
+            width:20px;
+            height: 20px;
+        }
+        #btn1{
+            padding:15px;
+            font-size: 25px;
+        }
+        .parent{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <form>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Value</th>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td><input id="name" type="text" name="name" ></td>
+                </tr>
+                <tr>
+                    <td>Sex</td>
+                    <td>
+                        <input class="radio" type="radio" value="Male" name="sex" checked>Male
+                        <br>
+                        <input class="radio" type="radio" value="Female" name="sex">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Eye Color</td>
+                    <td>
+                        <select id="select">
+                            <option value="green">Green</option>
+                            <option value="yellow">Yellow</option>
+                            <option value="red">brown</option>
+                            <option value="green">black</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Check All The Apply</td>
+                    <td>
+                        <input class="check" type="checkbox" value="6">Over 6 Feet Tall
+                        <br>
+                        <input class="check" type="checkbox" value="200">Over 200 Pound
+                    </td>
+                </tr>
+                <tr >
+                    <td colspan="2">
+                        <label>Your Athletic Ability:</label>
+                        <br> 
+                        <textarea id="bigtext"  rows="4" cols="70"></textarea>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="2">
+                         <input id="btn1" type="button" name="submit" value="Enter My Information">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
