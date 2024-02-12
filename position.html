@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .parent{
+                border:2px solid red;
+                background-color: khaki;
+                height: 3444px;
+            }
+            .box{
+                display: block;
+                border:2px solid black;
+                width:150px;
+                height: 150px;
+                margin: 5px;
+            }
+            #box3{
+                
+                /* position: relative;
+                top:35px;
+                left:40px; 
+                position:fixed;
+                right: 20px;*/
+                background-color: blue;
+                z-index: 35;
+            }
+            #box1{
+                position: relative;
+                top:20px;
+                background-color: black;
+            }
+            #box2{
+                position: relative;
+                top:50px;
+                z-index: 33;
+            
+               /* position:absolute;
+               left: 50px; */
+               /* position:sticky;
+               top:20px;
+             */
+             background-color: red;
+            }
+
+            #box5{
+                border:2px solid black;
+                background-color: aquamarine;
+                width:200px;
+                height: 65px;
+                overflow: auto;
+            }
+            img{
+                float: right;
+                
+            }
+            .center{
+                width:60%;
+                border:2px solid black;
+                margin: auto;
+            }
+            .img1{
+                display: block;
+                float: none;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="box" id="box1">1</div>
+            <div class="box" id="box2">2</div>
+            <div class="box" id="box3">3</div>
+            <div class="box" id="box4">4</div>
+            <div id="box5">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur maxime officia enim sint modi animi explicabo vitae deserunt dolorem, ipsum quibusdam assumenda voluptatibus est distinctio! Debitis enim nisi voluptatem aliquid.</p>
+            </div>
+
+            <div>
+                <p><img src="motor.jpg" alt="not display" width="300px" height="300px">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo officiis itaque repellendus animi neque perspiciatis nemo perferendis sunt dignissimos est et commodi, voluptas maiores assumenda, optio error ex accusamus distinctio corporis natus ad. Reprehenderit suscipit unde aut aspernatur repellendus rem, deleniti voluptates? Dolorum, officiis architecto vitae quidem ad nesciunt voluptates sunt labore, fugit quae enim laudantium necessitatibus nemo minima blanditiis aliquid ut, consequuntur voluptatum harum? Quae quos tempore voluptas accusamus eum fugit doloribus saepe corrupti modi beatae necessitatibus autem, cumque placeat distinctio ipsam perspiciatis deserunt non adipisci error numquam aliquam sunt magni nisi natus. Neque tempore animi hic sapiente saepe.</p>
+                
+            </div>
+
+            <div class="center"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa rerum eligendi autem quibusdam? Sed tenetur pariatur, corrupti sapiente dolores blanditiis impedit sit! Quas alias corporis magni aliquid aperiam at illum minima nam doloremque ad dicta praesentium expedita, ullam nemo rerum, sed accusantium atque necessitatibus dolorum soluta architecto officiis. Recusandae, blanditiis et optio amet neque, voluptate voluptatibus illo voluptatum, quam odio hic magnam dicta exercitationem aperiam? Dignissimos, aspernatur soluta. Odio laboriosam assumenda maiores libero sapiente quos nobis voluptatum ducimus? Est, enim repellendus? Sed voluptatum maxime odit aut beatae velit modi soluta, doloremque numquam assumenda, voluptas distinctio non neque eaque dicta perferendis.</p></div>
+            <img class="img1" src="motor.jpg" width="40%" >
+
+        </div>
+    </body>
+    </html>
+</body>
+</html>
