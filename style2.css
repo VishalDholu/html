@@ -465,8 +465,11 @@ select:hover{
     font-size: 20px;
     background-color:#333;
     border:none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
     width: 90%;
+}
+.p5_c1_input::placeholder{
+    color:white;
 }
 .p5_c1_c1{
     display: flex;
@@ -535,6 +538,9 @@ li a:hover{
     
     .m1_c1{
         display:none;
+    }
+    .m1_c2{
+        justify-content: center;
     }
     select{
         width:80px;
@@ -1402,7 +1408,11 @@ li a:hover{
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .main2{
+
+   
+    
+                                            
+     .main2{
         max-height: 1200px;
     }
     select{
@@ -1417,7 +1427,7 @@ li a:hover{
     .nav_div{
         margin:0px 16px;
     }
-                                               /* section */
+                                              
 
 .main5{
     width:100%;
@@ -1449,12 +1459,6 @@ li a:hover{
    
     
 }
-#span{
-    background: -webkit-linear-gradient(dodgerblue,#333);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
-}
 .m5_c1_c1_h3{
     font-size: 25px;
     color: dimgrey;
@@ -1467,8 +1471,7 @@ li a:hover{
 }
 .m5_c1_c1_p2{
     color:dimgray;
-}
+} 
 
 
-                                /* section2 */
 }
